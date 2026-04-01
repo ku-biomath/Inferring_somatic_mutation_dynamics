@@ -2,7 +2,7 @@
 Codes for the following article:  
 Tomimoto, S. and Satake, A. 2026. Inferring somatic mutation dynamics from genomic variation across branches within long-lived tropical trees.
 
-In that paper, the establishment probabilities of somatic and gametic mutations were compared, considering two life histories of modular organisms.
+In that paper, ###.
 
 S.T. is responsible for collecting data, and writing code (Contact details: sou.tomimoto[at]gmail.com). 
 Link to the manuscript would be available in the near future.

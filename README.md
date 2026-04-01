@@ -1,5 +1,5 @@
 # Inferring_somatic_mutation_dynamics
-Codes for the following article:
+Codes for the following article:  
 Tomimoto, S. and Satake, A. 2026. Inferring somatic mutation dynamics from genomic variation across branches within long-lived tropical trees.
 
 In that paper, the establishment probabilities of somatic and gametic mutations were compared, considering two life histories of modular organisms.

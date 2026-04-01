@@ -16,6 +16,7 @@ This repository contains the Python implementation for the following article:
 - `markov_chain_plotting.ipynb`: Visualization of model predictions based on MAP (Maximum A Posteriori) parameters.
 - `markov_chain_para_dep.ipynb`: Parameter dependency analysis and sensitivity testing.
 - `stochastic_simulation.ipynb`: Stochastic simulations of somatic mutation accumulation (based on Tomimoto & Satake 2023, JTB).
+- `stochastic_simulation_plotting.ipynb`: Visualization of simulation results by various patterns.
 - `/data`: Empirical data from Satake et al. (2024).
 - `/results`: Simulation outputs and intermediate results.
 
@@ -26,6 +27,7 @@ This repository contains the Python implementation for the following article:
 - scipy==1.15.3
 - pandas==2.2.3
 - seaborn==0.13.2
+- dendropy==5.0.8
 - matplotlib==3.10.0
 
 ## Contact

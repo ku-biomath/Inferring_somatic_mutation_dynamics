@@ -12,13 +12,18 @@ This repository contains the Python implementation for the following article:
 -	Our models offer insights into how genetic variability is shaped in the tropical trees and the stem cell dynamics underlying their long-term growth.
 
 ## Repository Structure
-- `markov_chain_ABCSMC.ipynb`: Inter-branch SNV calculation and model fitting via ABC-SMC.
-- `markov_chain_plotting.ipynb`: Visualization of model predictions based on MAP (Maximum A Posteriori) parameters.
+- `markov_chain_ABCSMC_SymBr.ipynb`: Inter-branch SNV calculation and model fitting via ABC-SMC under symmetric branching architecture.
+- `markov_chain_ABCSMC_SymBr_StemNumFix.ipynb`: Inter-branch SNV calculation and model fitting via ABC-SMC under symmetric branching architecture with fixed number of stem cells.
+- `markov_chain_ABCSMC_AsymBr.ipynb`: Inter-branch SNV calculation and model fitting via ABC-SMC under Asymmetric branching architecture.
+- `markov_chain_ABCSMC_AsymBr_StemNumFix.ipynb`: Inter-branch SNV calculation and model fitting via ABC-SMC under Asymmetric branching architecture with fixed number of stem cells.
+- `markov_chain_plotting_SymBr.ipynb`: Visualization of model predictions based on MAP (Maximum A Posteriori) parameters under symmetric branching architecture.
+- `markov_chain_plotting_AsymBr.ipynb`: Visualization of model predictions based on MAP (Maximum A Posteriori) parameters under asymmetric branching architecture.
 - `markov_chain_para_dep.ipynb`: Parameter dependency analysis and sensitivity testing.
-- `stochastic_simulation.ipynb`: Stochastic simulations of somatic mutation accumulation (based on Tomimoto & Satake 2023, JTB).
-- `stochastic_simulation_plotting.ipynb`: Visualization of simulation results by various patterns.
-- `/data`: Empirical data from Satake et al. (2024).
-- `/results`: Simulation outputs and intermediate results.
+- `stochastic_simulation_SymBr.ipynb`: Stochastic simulations of somatic mutation accumulation under symmetric branching architecture (based on Tomimoto & Satake 2023, JTB).
+- `stochastic_simulation_AsymBr.ipynb`: Stochastic simulations of somatic mutation accumulation under asymmetric branching architecture (based on Tomimoto & Satake 2023, JTB).
+- `stochastic_simulation_plotting.ipynb`: Visualization of stochastic simulation results by various patterns.
+- `/data`: Empirical data from Satake et al. (2024) to visually compare with model predictions.
+- `/simulation_results`: Outputs of stochastic simulations.
 
 ## Requirements
 - Python 3.10.13
